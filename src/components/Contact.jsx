@@ -1,13 +1,14 @@
 import React from 'react';
 
 const Contact = () => {
+  console.log('Rendered');
   return (
-    <div>
-      <h1 style = {{height: '300px'}}>
+    
+      <h1>
         Test
         </h1>
     
-    </div>
+    
   );
 };
 
