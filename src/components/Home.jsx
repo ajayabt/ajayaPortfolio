@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-
+import '../StyleFile/fonts.css'
 
 
 
@@ -23,20 +23,22 @@ const Home = () => {
     return (
       <Container style={{ paddingTop: topPadding }}>
          <Container className="text-center">
-        <Row className="mb-5">
-          <Col>
-            <h1>Welcome to My Portfolio</h1>
-            <p>This is my professional space to showcase my skills and projects.</p>
-          </Col>
+            <Row className="mb-5">
+              <Row className="justify-content-center">
+                <div>
+                <Col md={12}>
+                <h1>Ajaya Bhogal-Todd</h1>
+                <p>Front end Development and Instructional Design</p>
+                <p>Building Better Web Experiences through Code and Creativity. Transforming Ideas into Engaging Digital Solutions</p>
+              </Col>  
+                <Col>
+                  <img src="/headshotErnest.png" alt="Headshot" className="img-thumbnail mb-3" style={{ maxWidth: '300px', height: 'auto' }}/>  
+                </Col>
+              </div>
+        </Row>
+              
         </Row>
 
-        <Row className="justify-content-center">
-          <Col md={12}>
-            <img src="path-to-your-headshot.jpg" alt="Headshot" className="img-thumbnail mb-3" />
-            <h2>Ajaya</h2>
-            <p>This is my brand statement</p>
-          </Col>
-        </Row>
       </Container>
       </Container>
     );

@@ -8,12 +8,14 @@ import Contact from './components/Contact';
 import ProjectDetails from './components/ProjectDetails';
 import AboutMe from './components/AboutMe';
 import './StyleFile/style.css';
+import './StyleFile/app.css';
 
 
 function App() {
   return (
+    <div className='app-background'>
     <Router>
-       <div className="app-container">
+      <div className="app-container">
       <Header className="header"/>
       <div className="content">
       <Routes > 
@@ -26,6 +28,7 @@ function App() {
       </div>
       </div>
     </Router>
+    </div>
   );
 }
 

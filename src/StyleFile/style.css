@@ -9,6 +9,7 @@
   }
   
   .content {
+    font-size: larger;
     flex: 1 0 auto; 
   }
   
