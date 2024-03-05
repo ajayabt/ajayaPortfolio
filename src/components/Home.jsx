@@ -1,6 +1,8 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import '../StyleFile/fonts.css'
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import '../StyleFile/fonts.css';
+import ButtonLink from './NavButton';
+
 
 
 
@@ -36,7 +38,7 @@ const Home = () => {
                 </Col>
               </div>
         </Row>
-              
+          <ButtonLink path= "/projects" buttonText="Take me to the projects" />
         </Row>
 
       </Container>
